@@ -1,0 +1,249 @@
+{
+    "rooms": [
+        {
+            "id": 1001,
+            "name": "corridor",
+            "local_frame": [
+                2.9,
+                0,
+                0
+            ],
+            "area":[
+                [2.90,0.00],
+                [8.88,0],
+                [8.88,1.4],
+                [5.88,1.4],
+                [5.88,2.9],
+                [4.51,2.9],
+                [4.51,1.4],
+                [2.9,1.4]
+            ],
+            "room_center": [6.2, 0.7],
+            "connections": [
+                "EntranceRamp",
+                "Bedroom",
+                "Toilet",
+                "Entrance",
+                "Livingroom",
+                "DiningRoom",
+                "Kitchen"
+            ],
+            "doors": [
+                "Door_EntranceRamp_Corridor",
+                "Door_Bedroom_Corridor",
+                "Door_Toilet_Corridor",
+                "Door_Entrance_Corridor",
+                "Door_Livingroom_Corridor"
+            ]
+        },
+        {
+            "id": 1002,
+            "name": "entranceramp",
+            "local_frame": [
+                8.9,
+                0,
+                0
+            ],
+            "area":[
+                [8.9,0],
+                [12.55,0],
+                [12.55,1.4],
+                [8.9,1.4]
+            ],
+            "room_center": [10.725, 0.7],
+            "connections": [
+                "Corridor"
+            ],
+            "doors": [
+                "Door_EntranceRamp_Corridor"
+            ]
+        },
+        {
+            "id": 1003,
+            "name": "bedroom",
+            "local_frame": [
+                6.00,
+                1.50,
+                0
+            ],
+            "area":[
+                [6.00,1.50],
+                [12.40,1.50],
+                [12.40,5.40],
+                [9.00,5.40],
+                [9.00,3.20],
+                [6.00,3.20]
+            ],
+            "room_center": [10.6, 2.4],
+            "connections": [
+                "Corridor",
+                "Bathroom"
+            ],
+            "doors": [
+                "Door_Bedroom_Corridor",
+                "Door_Bathroom_Bedroom"
+            ]
+        },
+        {
+            "id": 1004,
+            "name": "toilet",
+            "local_frame": [
+                4.51,
+                2.9,
+                0
+            ],
+            "area":[
+                [4.51,2.9],
+                [5.881,2.9],
+                [5.881,5.4],
+                [4.51,5.4]
+            ],            
+            "room_center": [5.19, 4.15],
+            "connections": [
+                "Corridor"
+            ],
+            "doors": [
+                "Door_Toilet_Corridor"
+            ]
+        },
+        {
+            "id": 1005,
+            "name": "entrance",
+            "local_frame": [
+                4.5,
+                -1.52,
+                0
+            ],
+            "area":[
+                [4.5,-1.52],
+                [8.9,-1.52],
+                [8.9,0],
+                [4.5,0]
+            ], 
+            "room_center": [6.7, -0.76],
+            "connections": [
+                "Corridor"
+            ],
+            "doors": [
+                "Door_Entrance_Corridor"
+            ]
+        },
+        {
+            "id": 1006,
+            "name": "livingroom",
+            "local_frame": [
+                0,
+                -3.5,
+                0
+            ],
+            "area":[
+                [0,-3.5],
+                [4.5,-3.5],
+                [4.5,0],
+                [0,0]
+            ],
+            "room_center": [3.35, -1.75],
+            "connections": [
+                "Corridor"
+            ],
+            "doors": [
+                "Door_Livingroom_Corridor"
+            ]
+        },
+        {
+            "id": 1007,
+            "name": "diningroom",
+            "local_frame": [
+                0,
+                0,
+                0
+            ],
+            "area":[
+                [0,0],
+                [2.90,0.00],
+                [2.9,2.53],
+                [0.00,2.53]
+            ],
+            "room_center": [2.55, 0.6],
+            "connections": [
+                "Corridor",
+                "Backyard",
+                "Kitchen"
+            ],
+            "doors": [
+                "Door_Backyard_DiningRoom"
+            ]
+        },
+        {
+            "id": 1008,
+            "name": "kitchen",
+            "local_frame": [
+                0.00,
+                2.531,
+                0
+            ],
+            "area":[
+                [0.00,2.531],
+                [2.91,2.531],
+                [2.91,1.5],
+                [4.39,1.5],
+                [4.39,5.38],
+                [0,5.38]
+            ],
+            "room_center": [3.5, 4.10],
+            "connections": [
+                "Corridor",
+                "DiningRoom"
+            ],
+            "doors": [
+                ""
+            ]
+        },
+        {
+            "id": 1009,
+            "name": "bathroom",
+            "local_frame": [
+                6.00,
+                3.90,
+                0
+            ],
+            "area":[
+                [6.00,3.90],
+                [7.90,3.90],
+                [7.90,3.30],
+                [8.9,3.30],
+                [8.9,5.4],
+                [6.00,5.4]
+            ],
+            "room_center": [8, 4.4],
+            "connections": [
+                "Bedroom"
+            ],
+            "doors": [
+                "Door_Bathroom_Bedroom"
+            ]
+        },
+        {
+            "id": 1010,
+            "name": "backyard",
+            "local_frame": [
+                -1.5,
+                0,
+                0
+            ],
+            "area":[
+                [-1.5,0],
+                [0,0],
+                [0,3],
+                [-1.5,3]
+            ],
+            "room_center": [-0.75, 1.5],
+            "connections": [
+                "DiningRoom"                
+            ],
+            "doors": [
+                "Door_Backyard_DiningRoom"
+            ]
+        }
+    ]
+}

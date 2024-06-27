@@ -31,7 +31,7 @@ def initialize_prompt():
     # Append the loaded JSON data as a new document
     prompt_base.append({
         "role": "system",
-        "content": f"\n# Objects:\n{json.dumps(load_json('objects.json'), indent=4)}"
+        "content": f"\n# Objects:\n{json.dumps(load_json('objects_tmp.json'))}"
     })
 
     # prompt_base.append({
@@ -41,6 +41,6 @@ def initialize_prompt():
 
     prompt_base.append({
         "role": "system",
-        "content": f"\n# Agents:\n{json.dumps(load_json('agents.json'), indent=4)}"
+        "content": f"\n# Agents:\n{json.dumps(load_json('agents_tmp.json'))}"
     })
     return prompt_base

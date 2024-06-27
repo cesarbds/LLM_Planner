@@ -1,0 +1,105 @@
+{
+    "agents": [
+        {
+            "id": 90,
+            "name": {
+                "prefix": "professor",
+                "first_name": "eric",
+                "last_name": "rohmer"
+            },
+            "type": "human",
+            "capacity": {
+                "speak": 100,
+                "listen": 100,
+                "see": 100,
+                "manipulate": 100,
+                "move": 100,
+                "perception": 100
+            },
+            "pose": [
+                8.225000381469727,
+                4.775000095367432,
+                0.0
+            ],
+            "current_room": "Livingroom",
+            "target_list": null
+        },
+        {
+            "id": 15,
+            "name": {
+                "prefix": "student",
+                "first_name": "cesar",
+                "last_name": "bastos"
+            },
+            "type": "human",
+            "capacity": {
+                "speak": 100,
+                "listen": 100,
+                "see": 100,
+                "manipulate": 100,
+                "move": 100,
+                "perception": 100
+            },
+            "pose": [
+                1.774999976158142,
+                -2.6000001430511475,
+                0.0
+            ],
+            "current_room": "Kitchen",
+            "motion": true,
+            "target_list": null
+        },
+        {
+            "id": 225,
+            "name": {
+                "prefix": "student",
+                "first_name": "ervin",
+                "last_name": "bolivar"
+            },
+            "type": "human",
+            "capacity": {
+                "speak": 100,
+                "listen": 100,
+                "see": 100,
+                "manipulate": 100,
+                "move": 100,
+                "perception": 100
+            },
+            "pose": [
+                9.875,
+                4.099999904632568,
+                0.0
+            ],
+            "current_room": "Entrance",
+            "motion": true,
+            "target_list": null
+        },
+        {
+            "id": 16,
+            "name": {
+                "prefix": "robot",
+                "first_name": "p3dx",
+                "last_name": null
+            },
+            "type": "robot",
+            "container": "empty",
+            "virtual": "true",
+            "capacity": {
+                "speak": 100,
+                "listen": 100,
+                "see": 100,
+                "manipulate": 100,
+                "move": 100,
+                "perception": 100
+            },
+            "pose": [
+                -3.9838833808898926,
+                2.8617701530456543,
+                15.510418891906738
+            ],
+            "current_room": "Corridor",
+            "motion": true,
+            "target_list": null
+        }
+    ]
+}

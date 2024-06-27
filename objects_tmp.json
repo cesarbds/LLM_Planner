@@ -1,0 +1,743 @@
+{
+    "objects": [
+        {
+            "id": 2001,
+            "name": "dinnertable",
+            "current_room": "DiningRoom",
+            "pose": [
+                1.4050251245498657,
+                1.0750229358673096,
+                0.34950029850006104
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2002,
+            "name": "diningchair0",
+            "current_room": "DiningRoom",
+            "pose": [
+                0.70502769947052,
+                1.075000524520874,
+                0.4510082006454468
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2003,
+            "name": "diningchair1",
+            "current_room": "DiningRoom",
+            "pose": [
+                1.3300237655639648,
+                0.8100247979164124,
+                0.45100855827331543
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2004,
+            "name": "diningchair2",
+            "current_room": "DiningRoom",
+            "pose": [
+                2.055004835128784,
+                1.0749999284744263,
+                0.4509991705417633
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2005,
+            "name": "diningchair3",
+            "current_room": "DiningRoom",
+            "pose": [
+                1.3300236463546753,
+                1.3900213241577148,
+                0.4510081708431244
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2006,
+            "name": "coffee_maker",
+            "current_room": "Kitchen",
+            "pose": [
+                3.9978249073028564,
+                3.1882524490356445,
+                1.0396426916122437
+            ],
+            "category": "eletronic",
+            "on_top": "Kitchen_drawer",
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2007,
+            "name": "fridge",
+            "current_room": "Kitchen",
+            "pose": [
+                0.3210306167602539,
+                5.0705366134643555,
+                0.9106029272079468
+            ],
+            "category": "eletronic",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": false
+            }
+        },
+        {
+            "id": 2008,
+            "name": "shelf",
+            "current_room": "Kitchen",
+            "pose": [
+                4.250057697296143,
+                4.096424102783203,
+                1.6522817611694336
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2009,
+            "name": "plate",
+            "current_room": "Kitchen",
+            "pose": [
+                3.4000000953674316,
+                4.96999979019165,
+                0.8430994749069214
+            ],
+            "category": "utensil",
+            "on_top": "Kitchnet",
+            "inside": null,
+            "resources": {
+                "pickeable": true,
+                "placeable": true,
+                "surface": false
+            }
+        },
+        {
+            "id": 2010,
+            "name": "countertop",
+            "current_room": "Kitchen",
+            "pose": [
+                1.4000048637390137,
+                3.359999895095825,
+                0.4909990727901459
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2011,
+            "name": "stool0",
+            "current_room": "Kitchen",
+            "pose": [
+                0.4000072479248047,
+                2.874995470046997,
+                0.3566909432411194
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2012,
+            "name": "stool1",
+            "current_room": "Kitchen",
+            "pose": [
+                1.4000072479248047,
+                2.8749945163726807,
+                0.356690913438797
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2013,
+            "name": "stool2",
+            "current_room": "Kitchen",
+            "pose": [
+                2.399996757507324,
+                2.8750083446502686,
+                0.3566916584968567
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2014,
+            "name": "stool3",
+            "current_room": "Kitchen",
+            "pose": [
+                0.40001392364501953,
+                3.844989538192749,
+                0.3566908538341522
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2015,
+            "name": "stool4",
+            "current_room": "Kitchen",
+            "pose": [
+                1.4000129699707031,
+                3.8449904918670654,
+                0.3566908538341522
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2016,
+            "name": "stool5",
+            "current_room": "Kitchen",
+            "pose": [
+                2.3999977111816406,
+                3.8450076580047607,
+                0.3566916882991791
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2017,
+            "name": "sink",
+            "current_room": "Kitchen",
+            "pose": [
+                2.9090166091918945,
+                5.055586338043213,
+                0.809345543384552
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2018,
+            "name": "apple",
+            "current_room": "Kitchen",
+            "pose": [
+                3.9200000762939453,
+                2.5,
+                0.8399999737739563
+            ],
+            "category": "Fruit",
+            "on_top": "Kitchen_drawer",
+            "inside": "null",
+            "resources": {
+                "pickeable": true,
+                "placeable": true,
+                "surface": false
+            }
+        },
+        {
+            "id": 2019,
+            "name": "banana",
+            "current_room": "Kitchen",
+            "pose": [
+                3.9000000953674316,
+                2.700000047683716,
+                0.8450000286102295
+            ],
+            "category": "Fruit",
+            "on_top": "Kitchen_drawer",
+            "inside": null,
+            "resources": {
+                "pickeable": true,
+                "placeable": true,
+                "surface": false
+            }
+        },
+        {
+            "id": 2020,
+            "name": "microwave",
+            "current_room": "Kitchen",
+            "pose": [
+                0.9148473739624023,
+                5.023330211639404,
+                0.9723404049873352
+            ],
+            "category": "eletronic",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2021,
+            "name": "kitchen_drawer",
+            "current_room": "Kitchen",
+            "pose": [
+                4.070000171661377,
+                2.5999999046325684,
+                1.1722755432128906
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2022,
+            "name": "bowl",
+            "current_room": "Kitchen",
+            "pose": [
+                2.0999999046325684,
+                3.3499999046325684,
+                1.0
+            ],
+            "category": "utensil",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": true,
+                "placeable": true,
+                "surface": false
+            }
+        },
+        {
+            "id": 2023,
+            "name": "kitchnet",
+            "current_room": "Kitchen",
+            "pose": [
+                2.224788188934326,
+                5.078158378601074,
+                0.46808239817619324
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2024,
+            "name": "stove",
+            "current_room": "Kitchen",
+            "pose": [
+                1.550336480140686,
+                4.7874250411987305,
+                0.6533071398735046
+            ],
+            "category": "eletronic",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": false
+            }
+        },
+        {
+            "id": 2025,
+            "name": "cup",
+            "current_room": "Kitchen",
+            "pose": [
+                3.700000047683716,
+                4.950000286102295,
+                0.8904997110366821
+            ],
+            "category": "utensil",
+            "on_top": "Kitchnet",
+            "inside": null,
+            "resources": {
+                "pickeable": true,
+                "placeable": true,
+                "surface": false
+            }
+        },
+        {
+            "id": 2026,
+            "name": "bed",
+            "current_room": "Bedroom",
+            "pose": [
+                10.624998092651367,
+                4.399997711181641,
+                0.27303069829940796
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2027,
+            "name": "closet",
+            "current_room": "Bedroom",
+            "pose": [
+                6.900001525878906,
+                3.1999998092651367,
+                1.0260002613067627
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2028,
+            "name": "cupboard",
+            "current_room": "Bedroom",
+            "pose": [
+                10.599998474121094,
+                1.774999976158142,
+                0.9850001931190491
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": false
+            }
+        },
+        {
+            "id": 2029,
+            "name": "toiletbowl",
+            "current_room": "Toilet",
+            "pose": [
+                4.875,
+                5.075005054473877,
+                0.42529210448265076
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2030,
+            "name": "handbasin",
+            "current_room": "Toilet",
+            "pose": [
+                5.675004959106445,
+                4.35000467300415,
+                0.7084996700286865
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2031,
+            "name": "indoorplant",
+            "current_room": "Livingroom",
+            "pose": [
+                2.946802854537964,
+                -3.117133378982544,
+                0.5534142255783081
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2032,
+            "name": "sofa0",
+            "current_room": "Livingroom",
+            "pose": [
+                0.6499998569488525,
+                -3.0681207180023193,
+                0.37493208050727844
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2033,
+            "name": "sofa1",
+            "current_room": "Livingroom",
+            "pose": [
+                1.7543326616287231,
+                -3.0570523738861084,
+                0.37493595480918884
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2034,
+            "name": "rack",
+            "current_room": "Livingroom",
+            "pose": [
+                4.22499942779541,
+                -1.8250006437301636,
+                0.9859991073608398
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2035,
+            "name": "tv_stand",
+            "current_room": "Livingroom",
+            "pose": [
+                1.2565405368804932,
+                -0.24119341373443604,
+                0.5862579345703125
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2036,
+            "name": "tv",
+            "current_room": "Livingroom",
+            "pose": [
+                1.2565405368804932,
+                -0.1331578493118286,
+                0.8325011730194092
+            ],
+            "category": "eletronic",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": false
+            }
+        },
+        {
+            "id": 2037,
+            "name": "smalltable",
+            "current_room": "Livingroom",
+            "pose": [
+                -3.9838833808898926,
+                2.8617701530456543,
+                15.510418891906738
+            ],
+            "category": "furniture",
+            "on_top": null,
+            "inside": null,
+            "resources": {
+                "pickeable": false,
+                "placeable": false,
+                "surface": true
+            }
+        },
+        {
+            "id": 2038,
+            "name": "green_book",
+            "current_room": "Bedroom",
+            "pose": [
+                10.225000381469727,
+                3.75,
+                0.4000000059604645
+            ],
+            "category": "eletronic",
+            "on_top": "Bed",
+            "inside": null,
+            "resources": {
+                "pickeable": true,
+                "placeable": true,
+                "surface": false
+            }
+        },
+        {
+            "id": 2039,
+            "name": "red_book",
+            "current_room": "Livingroom",
+            "pose": [
+                -3.9838833808898926,
+                2.8617701530456543,
+                15.510418891906738
+            ],
+            "category": "eletronic",
+            "on_top": "Rack",
+            "inside": null,
+            "resources": {
+                "pickeable": true,
+                "placeable": true,
+                "surface": false
+            }
+        },
+        {
+            "id": 2040,
+            "name": "laptop",
+            "current_room": "Livingroom",
+            "pose": [
+                2.525,
+                3.35,
+                1.0
+            ],
+            "category": "eletronic",
+            "on_top": "countertop",
+            "inside": null,
+            "resources": {
+                "pickeable": true,
+                "placeable": true,
+                "surface": false
+            },
+            "container": "laptop"
+        },
+        {
+            "id": 2041,
+            "name": "bottle",
+            "current_room": "DiningRoom",
+            "pose": [
+                1.225000023841858,
+                1.0750000476837158,
+                0.8500000238418579
+            ],
+            "category": "eletronic",
+            "on_top": "DinnerTable",
+            "inside": null,
+            "resources": {
+                "pickeable": true,
+                "placeable": true,
+                "surface": false
+            }
+        }
+    ]
+}
